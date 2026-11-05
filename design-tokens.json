@@ -1,0 +1,72 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "name": "JNexus Apple Editorial & Liquid Glass Design System",
+  "version": "2.0.0",
+  "color": {
+    "canvas": {
+      "primary": { "value": "#F5F5F7", "description": "Apple Alabaster warm neutral background" },
+      "elevated": { "value": "#FFFFFF", "description": "Pure optical white surface for Bento cards" },
+      "subtle": { "value": "#ECECEF", "description": "Secondary stone surface for recessed controls" },
+      "obsidian": { "value": "#111113", "description": "Deep carbon surface reserved for code, JSON, and pro telemetry" },
+      "obsidianElevated": { "value": "#1C1C1E", "description": "Secondary dark surface for terminal headers and tabs" }
+    },
+    "glass": {
+      "light": { "value": "rgba(255, 255, 255, 0.76)", "description": "Liquid Glass translucent toolbar material" },
+      "dark": { "value": "rgba(28, 28, 30, 0.78)", "description": "Dark Liquid Glass floating capsule material" }
+    },
+    "text": {
+      "primary": { "value": "#1D1D1F", "description": "Apple Carbon primary ink" },
+      "secondary": { "value": "#6E6E73", "description": "Apple Titanium muted secondary copy" },
+      "tertiary": { "value": "#86868B", "description": "Captions and metadata labels" },
+      "onDark": { "value": "#F5F5F7", "description": "Primary text on obsidian surfaces" },
+      "onDarkMuted": { "value": "#A1A1A6", "description": "Secondary text on obsidian surfaces" }
+    },
+    "accent": {
+      "blue": { "value": "#0066CC", "description": "Apple System Interactive Blue" },
+      "blueHover": { "value": "#0071E3", "description": "Interactive hover state" },
+      "emerald": { "value": "#1D8348", "description": "Semantic operational & success state" },
+      "amber": { "value": "#B45309", "description": "Semantic warning state" },
+      "crimson": { "value": "#C81E1E", "description": "Semantic error state" }
+    },
+    "border": {
+      "hairline": { "value": "rgba(0, 0, 0, 0.08)", "description": "1px precision hairline border on light surfaces" },
+      "hairlineStrong": { "value": "rgba(0, 0, 0, 0.14)", "description": "Interactive focus/hover hairline" },
+      "specularDark": { "value": "rgba(255, 255, 255, 0.12)", "description": "Specular edge highlight on obsidian surfaces" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+      "mono": "'SF Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    },
+    "scale": {
+      "hero": "clamp(2.5rem, 1.8rem + 3.2vw, 4.5rem)",
+      "h2": "clamp(1.875rem, 1.4rem + 1.8vw, 3rem)",
+      "h3": "clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem)",
+      "bodyLg": "clamp(1.0625rem, 1rem + 0.25vw, 1.25rem)",
+      "body": "1rem",
+      "caption": "0.8125rem"
+    },
+    "tracking": {
+      "tighter": "-0.035em",
+      "tight": "-0.022em",
+      "normal": "-0.011em",
+      "eyebrow": "0.06em"
+    }
+  },
+  "spacing": {
+    "section": "clamp(5rem, 4rem + 5vw, 8.5rem)",
+    "bentoGap": "1.25rem"
+  },
+  "radius": {
+    "capsule": "9999px",
+    "bento": "28px",
+    "card": "20px",
+    "control": "12px"
+  },
+  "motion": {
+    "easeOutExpo": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "durationFast": "160ms",
+    "durationNormal": "320ms"
+  }
+}

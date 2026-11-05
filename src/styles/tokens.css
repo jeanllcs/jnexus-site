@@ -1,0 +1,127 @@
+:root,
+:root[data-theme="light"] {
+  /* Apple Editorial & Liquid Glass Surfaces — Light Mode */
+  --color-canvas: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #e8e8ed;
+  --color-obsidian: #111113;
+  --color-obsidian-elevated: #1c1c1e;
+
+  /* Liquid Glass Materials */
+  --glass-light-bg: rgba(255, 255, 255, 0.78);
+  --glass-pill-bg: rgba(255, 255, 255, 0.72);
+  --glass-light-border: rgba(255, 255, 255, 0.65);
+  --glass-light-ring: rgba(0, 0, 0, 0.08);
+
+  /* Ink & Typography Colors */
+  --color-ink: #1d1d1f;
+  --color-ink-secondary: #6e6e73;
+  --color-ink-tertiary: #86868b;
+  --color-ink-on-dark: #f5f5f7;
+  --color-ink-on-dark-muted: #a1a1a6;
+
+  /* Primary Interactive Button Tokens */
+  --color-btn-bg: #1d1d1f;
+  --color-btn-text: #ffffff;
+  --color-btn-hover: #333336;
+
+  /* Input Controls */
+  --color-input-bg: #f5f5f7;
+  --color-input-focus-bg: #ffffff;
+
+  /* Semantic Accents */
+  --color-accent: #0066cc;
+  --color-accent-hover: #0071e3;
+  --color-emerald: #1d8348;
+  --color-amber: #b45309;
+  --color-crimson: #c81e1e;
+
+  /* Hairlines & Specular Edges */
+  --border-hairline: rgba(0, 0, 0, 0.08);
+  --border-hairline-strong: rgba(0, 0, 0, 0.16);
+  --border-specular-dark: rgba(255, 255, 255, 0.12);
+
+  /* Elevation Shadows */
+  --shadow-bento: 0 2px 12px -2px rgba(0, 0, 0, 0.04),
+    0 12px 32px -4px rgba(0, 0, 0, 0.03);
+  --shadow-bento-hover: 0 8px 24px -4px rgba(0, 0, 0, 0.08),
+    0 20px 44px -8px rgba(0, 0, 0, 0.05);
+  --shadow-glass: 0 8px 28px -4px rgba(0, 0, 0, 0.07),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.75);
+
+  /* Fluid Typography Scale */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, monospace;
+
+  --text-hero: clamp(2.5rem, 1.8rem + 3.2vw, 4.35rem);
+  --text-h2: clamp(1.85rem, 1.4rem + 1.8vw, 2.85rem);
+  --text-h3: clamp(1.25rem, 1.1rem + 0.5vw, 1.55rem);
+  --text-body-lg: clamp(1.0625rem, 1rem + 0.25vw, 1.225rem);
+  --text-body: 1rem;
+  --text-caption: 0.8125rem;
+
+  /* Rhythm & Geometry */
+  --space-section: clamp(5rem, 4rem + 5vw, 8.5rem);
+  --radius-bento: 28px;
+  --radius-card: 20px;
+  --radius-control: 12px;
+  --radius-capsule: 9999px;
+
+  /* Compositor-Friendly Motion */
+  --duration-fast: 160ms;
+  --duration-normal: 320ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root[data-theme="dark"] {
+  /* Apple Pro Dark Mode Surfaces */
+  --color-canvas: #09090b;
+  --color-surface: #141417;
+  --color-surface-subtle: #1f1f24;
+  --color-obsidian: #18181c;
+  --color-obsidian-elevated: #222228;
+
+  /* Liquid Glass Materials — Dark Mode */
+  --glass-light-bg: rgba(20, 20, 23, 0.78);
+  --glass-pill-bg: rgba(28, 28, 33, 0.78);
+  --glass-light-border: rgba(255, 255, 255, 0.12);
+  --glass-light-ring: rgba(255, 255, 255, 0.1);
+
+  /* Ink & Typography Colors — Dark Mode */
+  --color-ink: #f5f5f7;
+  --color-ink-secondary: #a1a1a6;
+  --color-ink-tertiary: #8e8e93;
+  --color-ink-on-dark: #f5f5f7;
+  --color-ink-on-dark-muted: #a1a1a6;
+
+  /* Primary Interactive Button Tokens — Dark Mode */
+  --color-btn-bg: #f5f5f7;
+  --color-btn-text: #111113;
+  --color-btn-hover: #ffffff;
+
+  /* Input Controls — Dark Mode */
+  --color-input-bg: #0e0e11;
+  --color-input-focus-bg: #18181d;
+
+  /* Semantic Accents — Dark Mode */
+  --color-accent: #2997ff;
+  --color-accent-hover: #47a8ff;
+  --color-emerald: #30d158;
+  --color-amber: #ffd60a;
+  --color-crimson: #ff453a;
+
+  /* Hairlines & Specular Edges — Dark Mode */
+  --border-hairline: rgba(255, 255, 255, 0.1);
+  --border-hairline-strong: rgba(255, 255, 255, 0.2);
+  --border-specular-dark: rgba(255, 255, 255, 0.14);
+
+  /* Elevation Shadows — Dark Mode */
+  --shadow-bento: 0 4px 20px -2px rgba(0, 0, 0, 0.5),
+    0 12px 36px -4px rgba(0, 0, 0, 0.4);
+  --shadow-bento-hover: 0 8px 28px -4px rgba(0, 0, 0, 0.65),
+    0 20px 48px -8px rgba(0, 0, 0, 0.55);
+  --shadow-glass: 0 8px 32px -4px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+}
